@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입</title>
+        <link type="text/css" rel="stylesheet" href="membership.css">
+        <style>
+            body {
+                    background-color: rgb(2, 2, 54);
+            }
+            .type1 {
+                text-align: center;
+            }
+            .type1 a {
+                margin-left: 40px;
+            }
+            h4, h5 {
+                color: white;
+                text-align: center;
+            }
+            a:visited {
+                text-decoration: none;
+                color: white;
+            }
+            a:hover {
+                color: turquoise;
+                text-shadow: 1px 1px 1px gray;
+            }
+            a:link {
+                text-decoration: none;
+                color:white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="type1">
+            <a href="HOME.html"> HOME</a>
+            <a href="회원가입.html"> 회원가입</a>
+            <a href="HTML학습.html">HTML학습</a>
+            <a href="CSS학습.html">CSS학습</a>
+         </div>
+      <div id="login"><!--논리적 덩어리 => css-->
+          <form action="login.jsp" name="myForm">
+              <fieldset>
+                  <legend><h1>회원가입</h1></legend>
+                    <section><!--내용의 단락 구분 => semantic(의미) 태그-->
+                        <input type="text" name="id" placeholder="아이디" size="30" required autofocus><br>
+                        <input type="password" name="pwd" placeholder="비밀번호" size="30" required><br>
+                        <input type="password" name="repwd" placeholder="비밀번호 확인" size="30" required><br>
+                        <input type="text" name="name" placeholder="이름" size="30" required><br>
+                    </section>
+                    <section>
+                        <label> 성별</label>
+                        남자<input class="gender" type="radio" name="gender" required>
+                        여자<input class="gender" type="radio" name="gender" required><br>
+                        <input type="number" placeholder="생년" min="1910" max="2010" step=1><br>
+                        <input type="number" placeholder="월" min="1" max="12" step=1><br>
+                        <input type="number" placeholder="일" min="1" max="31" step=1><br>
+                        <input type="tel" name="tel" placeholder="전화번호" required
+                        pattern="^\d{3}-\d{3,4}-\d{4}$"><br>
+                        <input type="email" placeholder="비상연락용 이메일" size="30"
+                        pattern="^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$"><br>
+
+                    </section> 
+
+                    <section>
+                        <label>남기고 싶은 말</label><br>
+                        <textarea name="comment" rows="5" cols="35"></textarea><br>
+                        <label>알게된 경로</label>
+                        <select name="path">
+                            <option value="홈페이지">홈페이지</option>
+                            <option value="광고">광고</option>
+                            <option value="기타">기타</option>
+                        </select>
+
+                    </section>
+
+                    <section>
+                        <input class="btn" type="submit" value="v 가입하기" name="submit">
+                        <input class="btn" type="reset" value="v 다시입력" name="reset">
+                    </section>
+
+
+              </fieldset>
+          </form>
+      </div>
+
+        <footer>
+         <h4>Copyright by the first graders of the JS club</h4>
+         <h5>Mirim Meister High School</h5>
+         <h5>2021 Summer Vacation</h5>
+        </footer>
+    </body>
+</html>
