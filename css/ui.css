@@ -1,0 +1,33 @@
+.type1 {    
+    text-align: center;
+    text-shadow: 5px;
+}
+.type1 a {
+    margin-left: 40px;
+}
+h4, h5 {
+    color: black;
+    text-align: center;
+}
+#a:visited {
+    text-decoration: none;
+    color: black;
+}
+#a:hover {
+    color: greenyellow;
+    text-shadow: 1px 1px 1px gray;
+}
+#a:link {
+    text-decoration: none;
+    color:black;
+}
+footer {
+    width: 180px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px 20px 30px 20px;
+    font-size: 11px;
+    color: rgb(255, 255, 255, 0.89);
+    z-index: 12;
+}
