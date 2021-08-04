@@ -6,13 +6,21 @@
         <link rel="stylesheet" type="text/css" href="css/ui.css">
     </head>
     <body>
-        <div class="type1">                         <!-- target="_blank" 할까 말까 --> 
-           <a id="menu1" href="HOME.html"> HOME</a>
+        <div class="type1"> 
+           <a href="HOME.html"> HOME</a>
            <a href="회원가입.html"> 회원가입</a>
            <a href="HTML학습.html">HTML학습</a>
            <a href="CSS학습.html">CSS학습</a>
         </div>
-
+            <form class='search'>
+            <button class="img-button" type="submit" name="click" value=""><img src="img/img-button.png" style="width: 50px; height: 40px;" alt="">  <!-- 검색창 이모티콘 클래스-->
+            </button>
+            <input class='keyword' type='text' name='search' maxlength=255 value="" autocomplete="off">
+                <select class='SelectSearch' name='WhichSearch'>
+                    <option id='google' value='google'>Google</option>
+                    <option id='naver' value='naver'>Naver</option>
+                </select>
+            </form>
         <footer>
             <h4>Copyright by the first graders of the JS club</h4>
             <h5>Mirim Meister High School</h5>

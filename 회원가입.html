@@ -32,10 +32,58 @@
                         <label> 성별</label>
                         남자<input class="gender" type="radio" name="gender" required>
                         여자<input class="gender" type="radio" name="gender" required><br>
-                        <input type="number" placeholder="생년" min="1910" max="2010" step=1><br>
-                        <input type="number" placeholder="월" min="1" max="12" step=1><br>
-                        <input type="number" placeholder="일" min="1" max="31" step=1><br>
-                        <input type="tel" name="tel" placeholder="전화번호" required
+                        <input type="text" name="birthday-year" placeholder="XXXX" required>
+                        년
+                            <select name="birth_month" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        월
+                            <select name="birth_day" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        일<br>
+                        <input type="tel" name="tel" placeholder="전화번호" size="30" required
                         pattern="^\d{3}-\d{3,4}-\d{4}$"><br>
                         <input type="email" placeholder="비상연락용 이메일" size="30"
                         pattern="^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$"><br>
@@ -63,6 +111,8 @@
               </fieldset>
           </form>
       </div>
+
+        
 
         <footer>
          <h4>Copyright by the first graders of the JS club</h4>
