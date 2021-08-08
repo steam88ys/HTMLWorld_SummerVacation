@@ -1,13 +1,36 @@
-#login {
+body {
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: white;
+}
+section {
+    margin-bottom: 25px;
+}
+
+fieldset {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+}
+
+input{
+    display: inline-block;
+    width: 250px;
+}
+.gender {
+    display: inline;
+    width: 50px;
+}
+
+.btn {
+    width : 120px;
+    margin-right: 10px;
 }
 
 .type1 {    
     text-align: center;
     text-shadow: 5px;
-}
-.type1 a {
-    margin-left: 60px;
 }
 .img_menu1 {
     width: 50px;
@@ -18,6 +41,39 @@
     width: 40px;
     height: 40px;
 }
+
+ul.indexMenu {
+    list-style: none; /* 동그라미글머리표 X */
+    text-align: center;
+    font-weight: bold;
+}
+    
+.indexMenu li{
+    display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
+    text-transform : uppercase;
+    letter-spacing: 5px;
+    padding-right: 45px;
+ }
+    
+.indexMenu li a:link {
+    text-decoration: none;
+    color: black;
+ }
+    
+.indexMenu li a:visited {
+    text-decoration: none;
+    color: black;
+}
+    
+.indexMenu li a:hover {
+    /* text-decoration: underline; */
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+ }
+    
+.indexMenu li a:active {
+    text-decoration: none;
+ }
 
 .f1 {
     text-align: center;
