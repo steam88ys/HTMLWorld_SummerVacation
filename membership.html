@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>회원가입</title>
+        <link rel="stylesheet" type="text/css" href="css/membership.css">
+    </head>
+
+    <body>
+        <div class="type1"> 
+            <a  href="index.html" > <img src="img/home.jpg" class="img_menu1"> HOME</a>
+           <a href="membership.html"> <img src="img/addmember.jpg" class="img_menu1"> 회원가입</a>
+           <a href="html_study.html"> <img src=img/menu_html.jpg class="img_menu2"> HTML학습</a>
+           <a href="css_study.html"> <img src=img/menu_css.jpg class="img_menu2"> CSS학습</a>
+        </div>
+      <div id="login"><!--논리적 덩어리 => css-->
+          <form action="login.jsp" name="myForm">
+              <fieldset>
+                  <legend><h1>회원가입</h1></legend>
+                    <section><!--내용의 단락 구분 => semantic(의미) 태그-->
+                        <input type="text" name="id" placeholder="아이디" size="30" required autofocus><br>
+                        <input type="password" name="pwd" placeholder="비밀번호" size="30" required><br>
+                        <input type="password" name="repwd" placeholder="비밀번호 확인" size="30" required><br>
+                        <input type="text" name="name" placeholder="이름" size="30" required><br>
+                    </section>
+                    <section>
+                        <label> 성별</label>
+                        남자<input class="gender" type="radio" name="gender" required>
+                        여자<input class="gender" type="radio" name="gender" required><br>
+                        <input type="text" name="birthday-year" placeholder="XXXX" required>
+                        년
+                            <select name="birth_month" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        월
+                            <select name="birth_day" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                        일<br>
+                        <input type="tel" name="tel" placeholder="전화번호" size="30" required
+                        pattern="^\d{3}-\d{3,4}-\d{4}$"><br>
+                        <input type="email" placeholder="비상연락용 이메일" size="30"
+                        pattern="^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$"><br>
+
+                    </section> 
+
+                    <section>
+                        <label>남기고 싶은 말</label><br>
+                        <textarea name="comment" rows="5" cols="35"></textarea><br>
+                        <label>알게된 경로</label>
+                        <select name="path">
+                            <option value="홈페이지">홈페이지</option>
+                            <option value="광고">광고</option>
+                            <option value="기타">기타</option>
+                        </select>
+
+                    </section>
+
+                    <section>
+                        <input class="btn" type="submit" value="v 가입하기" name="submit">
+                        <input class="btn" type="reset" value="v 다시입력" name="reset">
+                    </section>
+
+
+              </fieldset>
+          </form>
+      </div>
+
+      <footer class="f1">
+        Copyright by the first graders of the JS club<br>
+        Mirim Meister High School<br>
+        2021 Summer Vacation<br>
+    </footer>
+    </body>
+</html>

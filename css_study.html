@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS학습 창</title>
+        <link rel="stylesheet" type="text/css" href="css/css_study.css">
+    </head>
+    <body>
+        <div class="type1"> 
+            <a  href="index.html" > <img src="img/home.jpg" class="img_menu1"> HOME</a>
+           <a href="membership.html"> <img src="img/addmember.jpg" class="img_menu1"> 회원가입</a>
+           <a href="html_study.html"> <img src=img/menu_html.jpg class="img_menu2"> HTML학습</a>
+           <a href="css_study.html"> <img src=img/menu_css.jpg class="img_menu2"> CSS학습</a>
+        </div>
+
+        </div style="overflow:scroll; width:350px; height:200px;">
+        <img src="img/width.png" class="htmlimg">
+                <div class="ex"><br>width<br> 가로 길이 속성. 값은 숫자 뒤 px등의 단위를 붙여 정의한다. inline요소는 적용되지 않는다.
+                    <br><br>height<br> 세로 길이 속성. 값은 숫자 뒤 px등의 단위를 붙여 정의한다. inline요소는 적용되지 않는다.<br>
+
+                </div>
+
+                <div class="code">      <!--width-->
+                    <br><br>&#x3C;!DOCTYPE html&#x3E;<br>
+                    &#x3C;html&#x3E;<br>
+                    &#x3C;head&#x3E;<br>
+                    &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;<br>
+                    &#x3C;title&#x3E;CSS&#xD559;&#xC2B5;&#xCC3D;&#x3C;/title&#x3E;<br>
+                    &#x3C;/head&#x3E;<br>
+                    &#x3C;body&#x3E;<br>
+                    &#x3C;img src=&#x22;img/ice.png&#x22; width=&#x22;300px&#x22; height=&#x22;0.5%&#x22;&#x3E;<br>
+                    &#x3C;/body&#x3E;<br>
+                    &#x3C;/html&#x3E;<br><br><br>
+                </div>
+
+        <img src="img/back.png" class="htmlimg">
+                <div class="ex"><br>background-color<br>배경색, 투명도 지정하는 태그<br>
+                background-color: 키워드 값;<br>16진수 값;<br>RGB 값;<br>HSL 값;<br><br><br>
+                </div>
+
+                <div class="code">
+                    &#x3C;!DOCTYPE html&#x3E;<br>
+                    &#x3C;html&#x3E;<br>
+                    &#x3C;head&#x3E;<br>
+                    &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;<br>
+                    &#x3C;title&#x3E;CSS&#xD559;&#xC2B5;&#xCC3D;&#x3C;/title&#x3E;<br>
+                    &#x3C;/head&#x3E;<br>
+                    &#x3C;body style=&#x22;background-color: cornflowerblue;&#x22;&#x3E;&#x3C;/body&#x3E;<br>
+                    &#x3C;/html&#x3E;<br><br><br><br>
+                </div>
+
+        <img src="img/float.png" class="htmlimg">
+                <div class="ex"><br> float<br> 특정 요소를 떠다니게 하여, 요소의 모서리가 페이지의 왼쪽, 오른쪽으로 이동하는 것(묶음태그에만 적용 가능)<br>
+                float: left;<br>right;<br>none; (기본값)<br><br><br></div>
+
+                <div class="code">
+                &#x3C;!DOCTYPE html&#x3E;<br>
+                &#x3C;html&#x3E;<br>
+                &#x3C;head&#x3E;<br>
+                &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;<br>
+                &#x3C;title&#x3E;CSS&#xD559;&#xC2B5;&#xCC3D;&#x3C;/title&#x3E;<br>
+                &#x3C;style&#x3E;<br>
+                .left {<br>
+                text-align: center;<br>
+                background-color: deepskyblue;<br>
+                width: 100px;<br>
+                height: 100px;<br>
+                float: left;<br>
+                }<br>
+                .rght {<br>
+                text-align: center;<br>
+                background-color: deepskyblue;<br>
+                width: 100px;<br>
+                height: 100px;<br>
+                float: right;<br>
+                }<br>   
+                &#x3C;/style&#x3E;<br>
+                &#x3C;/head&#x3E;<br>
+                &#x3C;body&#x3E;<br>
+                &#x3C;div class=&#x22;left&#x22;&#x3E;<br>
+                left<br>
+                &#x3C;/div&#x3E;<br>
+                &#x3C;div class=&#x22;right&#x22;&#x3E;<br>
+                right<br>
+                &#x3C;/div&#x3E;<br>
+                &#x3C;/body&#x3E;<br>
+                &#x3C;/html&#x3E;<br><br><br>
+                </div>
+
+                <div class="code"></div>
+        <img src="img/pm.png" class="htmlimg">
+                <div class="ex"><br>margin => border를 기준으로 외부 영역에 생기는 여백
+                    padding => border를 기준으로 내부 영역에 생기는 여백<br><br>box-model => content - padding - border - margin 순으로 존재(안쪽부터)<br><br>
+                </div>
+
+                <div class="code">
+                    &#x3C;!DOCTYPE html&#x3E;<br>
+                    &#x3C;html&#x3E;<br>
+                    &#x3C;head&#x3E;<br>
+                    &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;<br>
+                    &#x3C;title&#x3E;CSS&#xD559;&#xC2B5;&#xCC3D;&#x3C;/title&#x3E;<br>
+                    &#x3C;style&#x3E;<br>
+                    .margin {<br>
+                    margin: 10px;<br>
+                    background-color: deepskyblue;<br>
+                    }<br>
+                    .padding {<br>
+                    padding: 30px;<br>
+                    background-color: lawngreen;<br>
+                    }<br>
+                    &#x3C;/style&#x3E;<br>
+                    &#x3C;/head&#x3E;<br>
+                    &#x3C;body&#x3E;<br>
+                    &#x3C;div class=&#x22;margin&#x22;&#x3E;margin &#xC801;&#xC6A9;&#x3C;/div&#x3E;<br>
+                    &#x3C;div class=&#x22;padding&#x22;&#x3E;padding &#xC801;&#xC6A9;&#x3C;/div&#x3E;<br>
+                    &#x3C;/body&#x3E;<br>
+                    &#x3C;/html&#x3E;<br><br>
+        </div>
+
+         <footer class="f1">
+            Copyright by the first graders of the JS club<br>
+            Mirim Meister High School<br>
+            2021 Summer Vacation<br>
+        </footer>
+    </body>
+</html>

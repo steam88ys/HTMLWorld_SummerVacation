@@ -1,0 +1,86 @@
+* {
+    text-align: center;
+}
+.keyword {          /* 검색어 입력창 */  
+    margin-top: 290px;
+    border: none;
+    border-bottom : 2px solid black;
+    outline:none;
+    background: transparent;
+    font-size: 1.063rem;
+    width: 570px;
+    height: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+select {            /* 검색 엔진 선택 상자 */                     
+    border:none;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    font-size: 1.325rem;
+    font-weight: 300;
+    background: transparent;
+    color: black;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.img-button {
+    background: transparent;
+    border: none;
+}              /* 검색 아이콘 위치 검색기능과 일렬로 배열 */
+
+.search:hover > .keyword {
+    opacity: 1;
+}
+.search:hover > select{
+    opacity: 1;
+}
+
+.type1 {    
+    text-align: center;
+    text-shadow: 5px;
+}
+.type1 a {
+    margin-left: 60px;
+}
+h4, h5 {
+    color: black;
+    text-align: center;
+}
+#a:visited {
+    text-decoration: none;
+    color: black;
+}
+#a:hover {
+    color: greenyellow;
+    text-shadow: 1px 1px 1px gray;
+}
+#a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.img_menu1 {
+    width: 50px;
+    height: 50px;
+}
+
+.img_menu2 {
+    width: 40px;
+    height: 40px;
+}
+
+.f1 {
+    width: 180px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px 20px 30px 20px;
+    font-size: 11px;
+    color: black;
+    z-index: 12;
+}
+
