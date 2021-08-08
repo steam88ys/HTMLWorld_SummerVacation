@@ -15,7 +15,7 @@
 
          </div style="overflow:scroll; width:350px; height:200px;">
          <img src="img/href.png" class="htmlimg">
-            <div class="ex"> <br>href<br> Hypertext Reference의 줄임말로 문서를 연결한다.<br>하이퍼링크를 연결하는 a태그와 함께 쓰인다.<br>모든 url, 즉 웹페이지를 연결할 수 있는 기능이다.<br>
+            <div class="ex"> <span style="color: rgb(110, 151, 226);"><br>href<br></span> Hypertext Reference의 줄임말로 문서를 연결한다.<br>하이퍼링크를 연결하는 a태그와 함께 쓰인다.<br>모든 url, 즉 웹페이지를 연결할 수 있는 기능이다.<br>
                 &#x3C;a href=&#x22; &#x22;&#x3E;<br></div>
             
             <div class="code">    <!--href-->
@@ -31,8 +31,31 @@
                     &#x3C;/html&#x3E;<br><br><br><br>
             </div>
 
+        <img src="img/target.png" class="htmlimg">
+        <div class="ex"><span style="color: rgb(110, 151, 226);"><br>target<br></span>새로운 웹페이지를 열 때 쓰이는 속성이다. 인수는 _blank, _self, _parent, _top 중 하나가 쓰인다.<br><br>
+            target_blank : 새 창에서 웹페이지를 연다.<br>
+            target_self : 현재 창에서 그대로 웹페이지를 연다.<br>
+            target_parent : 현재 창의 부모 창에서 웹페이지를 연다.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            창A에서 창B를 연 후, 창B에서 _parent를 적용하면 창A에서 웹페이지가 열린다.<br>
+            target_top : 최상위 창에서 웹페이지를 연다.<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            _parent는 바로 이전의 부모창에서 열리는 반면, _top은 가장 위의 부모 창에서 열린다.<br><br><br>
+        </div>
+
+        <div class="code">
+        &#x3C;!DOCTYPE html&#x3E;<br>
+        &#x3C;html&#x3E;<br>
+        &#x3C;head&#x3E;<br>
+        &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;<br>
+        &#x3C;title&#x3E;HTML&#xD559;&#xC2B5;&#xCC3D;&#x3C;/title&#x3E;<br>
+        &#x3C;/head&#x3E;<br>
+        &#x3C;body&#x3E;<br>
+        &#x3C;a href=&#x22;target.html&#x22; target=&#x22;_blank&#x22;&#x3E;target&#x3C;/a&#x3E;<br>
+        &#x3C;/body&#x3E;<br>
+        &#x3C;/html&#x3E;<br><br><br>
+        </div>
+
         <img src="img/li.png" class="htmlimg">
-        <div class="ex"> <br>li ul ol<br>
+        <div class="ex"> <span style="color: rgb(110, 151, 226);"><br>li ul ol<br></span>
             목록 태그로, ol과 li or ul과 li을 같이 사용해야 한다. <br>ol태그는 순서가 있는 목록이 나타나고 ul태그는 순서가 없는 목록이 나타난다.<br>
             *&#x3C;ol&#x3E;은 태그 안에 type을 넣어 주면 l가 아닌 A, a, l, i로 바꿔 줄 수 있다.<br>
             *&#x3C;ul&#x3E; 역시 태그 안에 type을 넣어 주면 리스트 앞 기호를 변경할 수 있다.<br>
@@ -65,7 +88,7 @@
         </div>
 
         <img src="img/h1.png" class="htmlimg">
-        <div class="ex"> <br>h1~h6<br> 제목을 정의할 때 사용한다.<br> &#x3C;h1&#x3E;이 가장 중요한 제목이고, &#x3C;h6&#x3E;으로 갈수록 덜 중요한 제목을 정의한다.<br><br>
+        <div class="ex"> <span style="color: rgb(110, 151, 226);"><br>h1~h6<br></span> 제목을 정의할 때 사용한다.<br> &#x3C;h1&#x3E;이 가장 중요한 제목이고, &#x3C;h6&#x3E;으로 갈수록 덜 중요한 제목을 정의한다.<br><br>
         </div>
         
         <div class="code">

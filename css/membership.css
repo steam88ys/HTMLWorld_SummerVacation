@@ -4,7 +4,7 @@ body {
     background-color: white;
 }
 section {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 fieldset {
@@ -12,6 +12,11 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
     width: 1600px;
+}
+
+.member {
+    width: 810px;
+    height: 600px;
 }
 
 input{
@@ -33,11 +38,14 @@ input{
     text-shadow: 5px;
 }
 .img_menu1 {
-    width: 50px;
-    height: 50px;
+    vertical-align: middle;
+    padding-bottom: 7px;
+    width: 45px;
+    height: 45px;
 }
 
 .img_menu2 {
+    vertical-align: middle;
     width: 40px;
     height: 40px;
 }
@@ -45,11 +53,11 @@ input{
 ul.indexMenu {
     list-style: none; /* 동그라미글머리표 X */
     text-align: center;
-    font-weight: bold;
 }
     
 .indexMenu li{
     display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
+    line-height: 100px;
     text-transform : uppercase;
     letter-spacing: 5px;
     padding-right: 45px;

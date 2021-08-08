@@ -1,15 +1,15 @@
 * {
     text-align: center;
 }
-.keyword {          /* 검색어 입력창 */  
-    margin-top: 290px;
+.keyword {          /* 검색어 입력창 */
     border: none;
+    margin-right: 3px;
     border-bottom : 2px solid black;
     outline:none;
     background: transparent;
-    font-size: 1.063rem;
-    width: 570px;
-    height: 20px;
+    font-size: 1.5rem;
+    width: 580px;
+    height: 30px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -17,9 +17,9 @@
 select {            /* 검색 엔진 선택 상자 */                     
     border:none;
     outline: none;
-    width: 90px;
-    height: 40px;
-    font-size: 1.325rem;
+    width: 100px;
+    height: 60px;
+    font-size: 1.235rem;
     font-weight: 300;
     background: transparent;
     color: black;
@@ -27,9 +27,16 @@ select {            /* 검색 엔진 선택 상자 */
     transition: 0.4s;
 }
 
+.SelectSearch {
+    width: 90px;
+    height: 30px;
+}
+
 .img-button {
     background: transparent;
     border: none;
+    padding-top: 17px;
+    padding-right: 15px;
 }              /* 검색 아이콘 위치 검색기능과 일렬로 배열 */
 
 .search:hover > .keyword {
@@ -56,11 +63,11 @@ body {
 ul.indexMenu {
     list-style: none; /* 동그라미글머리표 X */
     text-align: center;
-    font-weight: bold;
 }
 
 .indexMenu li{
     display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
+    line-height: 100px;
     text-transform : uppercase;
     letter-spacing: 5px;
     padding-right: 45px;
@@ -87,11 +94,14 @@ ul.indexMenu {
 }
 
 .img_menu1 {
-    width: 50px;
-    height: 50px;
+    vertical-align: middle;
+    padding-bottom: 7px;
+    width: 45px;
+    height: 45px;
 }
 
 .img_menu2 {
+    vertical-align: middle;
     width: 40px;
     height: 40px;
 }
@@ -107,3 +117,15 @@ ul.indexMenu {
     z-index: 12;
 }
 
+form.search {
+    margin-top: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 840px;
+    height: 63px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 50px;
+    box-shadow: 1px 2px 1px 1px rgba(110, 150, 226, 0.589);
+    
+}
