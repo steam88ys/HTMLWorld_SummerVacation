@@ -11,6 +11,7 @@
 .ex {
     margin-top: 30px;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .type1 {    
@@ -35,6 +36,11 @@
 
 .code {
     padding-left: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.indexMenudiv {
+    padding-left: 17px;
 }
 
 ul.indexMenu {
@@ -46,8 +52,9 @@ ul.indexMenu {
     display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
     line-height: 100px;
     text-transform : uppercase;
-    letter-spacing: 5px;
-    padding-right: 45px;
+    letter-spacing: 3px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
     
 .indexMenu li a:link {

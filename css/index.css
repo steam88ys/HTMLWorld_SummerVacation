@@ -8,8 +8,8 @@
     outline:none;
     background: transparent;
     font-size: 1.5rem;
-    width: 580px;
-    height: 30px;
+    width: 490px;
+    height: 20px;
     opacity: 0;
     transition: 0.4s;
 }
@@ -35,8 +35,8 @@ select {            /* 검색 엔진 선택 상자 */
 .img-button {
     background: transparent;
     border: none;
-    padding-top: 17px;
-    padding-right: 15px;
+    padding-top: 14px;
+    padding-right: 17px;
 }              /* 검색 아이콘 위치 검색기능과 일렬로 배열 */
 
 .search:hover > .keyword {
@@ -69,8 +69,9 @@ ul.indexMenu {
     display: inline; /* 블럭단위 태그(한 줄 차지) => 인라인요소  */
     line-height: 100px;
     text-transform : uppercase;
-    letter-spacing: 5px;
-    padding-right: 45px;
+    letter-spacing: 3px;
+    padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .indexMenu li a:link {
@@ -121,11 +122,10 @@ form.search {
     margin-top: 240px;
     margin-right: auto;
     margin-left: auto;
-    width: 840px;
-    height: 63px;
+    width: 700px;
+    height: 55px;
     background-color: transparent;
     border: 2px solid gray;
     border-radius: 50px;
-    box-shadow: 1px 2px 1px 1px rgba(110, 150, 226, 0.589);
-    
+    box-shadow: 2px 2px 1px 1px rgba(110, 151, 226, 0.424);
 }
