@@ -56,7 +56,6 @@ select {            /* 검색 엔진 선택 상자 */
 }
 
 body {
-    background-image: url(../img/backg.jpg);
     background-size: 50% 200%;
     margin-left: auto;
     margin-right: auto;
