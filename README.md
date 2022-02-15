@@ -1,3 +1,3 @@
 ## JS Study Project
-HTML World
+HTML World \
 2021/06 ~ 2021/09
