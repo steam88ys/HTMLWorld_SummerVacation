@@ -1,1 +1,1 @@
-JS Study Project
+## JS Study Project
