@@ -96,19 +96,6 @@ ul.indexMenu {
     text-decoration: none;
 }
 
-.img_menu1 {
-    vertical-align: middle;
-    padding-bottom: 7px;
-    width: 45px;
-    height: 45px;
-}
-
-.img_menu2 {
-    vertical-align: middle;
-    width: 40px;
-    height: 40px;
-}
-
 .f1 {
     width: 180px;
     position: fixed;
@@ -129,5 +116,4 @@ form.search {
     background-color: transparent;
     border: 2px solid gray;
     border-radius: 50px;
-    box-shadow: 2px 2px 1px 1px rgba(110, 151, 226, 0.424);
 }
